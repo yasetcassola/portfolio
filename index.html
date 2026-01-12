@@ -1,39 +1,107 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Yaset Carballo – Portfolio</title>
-    <style>
-        body {
-            background-color: #0f172a;
-            color: white;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding-top: 80px;
-        }
-        h1 {
-            font-size: 48px;
-            color: #38bdf8;
-        }
-        p {
-            font-size: 22px;
-            max-width: 600px;
-            margin: auto;
-        }
-        a {
-            color: #22c55e;
-            font-size: 20px;
-        }
-    </style>
+<meta charset="UTF-8">
+<title>Yaset Carballo – Web Portfolio</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #020617);
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 100px 20px 40px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #38bdf8;
+}
+
+h2 {
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: #94a3b8;
+}
+
+button {
+    background: #38bdf8;
+    border: none;
+    color: #020617;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background: #0ea5e9;
+}
+
+section {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.card {
+    background: rgba(255,255,255,0.05);
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 40px;
+    color: #64748b;
+}
+</style>
 </head>
+
 <body>
 
-<h1>Yaset Carballo</h1>
-<p>Helicopter Pilot Student • Software Developer • Digital Entrepreneur</p>
-<p>This is my live portfolio hosted on GitHub Pages.</p>
+<header>
+    <h1>Yaset Carballo</h1>
+    <h2>Developer • Aviator • Entrepreneur</h2>
+    <button onclick="window.open('https://github.com/yasetcassola')">GitHub</button>
+    <button onclick="window.location='mailto:youremail@example.com'">Contact Me</button>
+</header>
 
-<br>
+<section>
+    <div class="card">
+        <h2>🚀 About Me</h2>
+        <p>
+            I am a multi-disciplinary professional combining aviation, software development,
+            digital marketing, and automation. I build systems that make businesses run faster,
+            smarter and more profitable.
+        </p>
+    </div>
 
-<a href="https://github.com/yasetcassola" target="_blank">My GitHub</a>
+    <div class="card">
+        <h2>💻 Skills</h2>
+        <p>Web Development • Automation • Python • JavaScript • GitHub • OBS • Streaming • Sales • Marketing</p>
+    </div>
+
+    <div class="card">
+        <h2>🧠 Current Projects</h2>
+        <p>
+            • Helicopter Pilot Training (R22)<br>
+            • Streaming Studio Automation<br>
+            • AI & Business Systems<br>
+            • Remote Software Development
+        </p>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 Yaset Carballo — Built with GitHub Pages
+</footer>
 
 </body>
 </html>
